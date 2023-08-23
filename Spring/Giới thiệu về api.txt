@@ -1,0 +1,18 @@
+	API (Application Programming Interface) là một cách để các phần mềm khác nhau có thể giao tiếp và làm việc cùng nhau một cách hiệu quả. Trong ngữ cảnh của việc phát triển web app, sử dụng API có thể giúp bạn kết nối ứng dụng của mình với các dịch vụ, dữ liệu hoặc chức năng bên ngoài một cách dễ dàng. Dưới đây là một số lợi ích và ví dụ về việc sử dụng API cho công việc code web app:
+
+	Tích hợp Dịch vụ Bên Ngoài: Thay vì phải xây dựng tất cả mọi thứ từ đầu, bạn có thể sử dụng các API có sẵn để tích hợp các dịch vụ bên ngoài vào ứng dụng của mình. Ví dụ, bạn có thể sử dụng API thanh toán để cho phép người dùng thanh toán bằng cách sử dụng các cổng thanh toán khác nhau như PayPal, Stripe, hoặc Square.
+
+	Thu thập Dữ liệu: API cung cấp khả năng thu thập dữ liệu từ các nguồn bên ngoài, như cơ sở dữ liệu chia sẻ, dịch vụ thông tin thời tiết, hoặc dữ liệu xã hội. Ví dụ, bạn có thể sử dụng API của Google Maps để hiển thị bản đồ và thông tin vị trí.
+
+	Tối ưu hóa Hiệu suất: Sử dụng API cho phép bạn tận dụng những chức năng đã được xây dựng và tối ưu hóa từ phía nhà cung cấp API. Điều này giúp giảm thiểu thời gian và công sức cần để phát triển các tính năng tương tự trong ứng dụng của bạn.
+
+	Độ tin cậy và Bảo mật: Các nhà cung cấp API thường duy trì và cập nhật các dịch vụ của họ để đảm bảo tính ổn định và bảo mật. Bằng cách sử dụng các API này, bạn có thể tự tin hơn về việc ứng dụng của mình hoạt động một cách đáng tin cậy và an toàn.
+
+	Phát triển Nhanh chóng: Sử dụng API giúp giảm bớt thời gian phát triển, cho phép bạn tập trung vào các khía cạnh quan trọng khác của ứng dụng. Bạn có thể sử dụng các khung làm việc (framework) hoặc thư viện (library) được xây dựng sẵn để tương tác với API một cách nhanh chóng.
+
+	Ví dụ: Giả sử bạn đang phát triển một ứng dụng thương mại điện tử. Bạn có thể sử dụng API của các dịch vụ thanh toán để cho phép khách hàng thanh toán đơn hàng của họ. Bạn cũng có thể sử dụng API của các dịch vụ gửi email để gửi thông báo xác nhận đơn hàng.
+
+	Ví dụ: Ứng dụng dự báo thời tiết
+Giả sử bạn đang phát triển một ứng dụng web để cung cấp dự báo thời tiết cho người dùng. Để thực hiện điều này, bạn có thể sử dụng API của một dịch vụ dự báo thời tiết bên ngoài như OpenWeatherMap. OpenWeatherMap để cung cấp dữ liệu dự báo thời tiết cho ứng dụng web của mình. Việc này giúp bạn tiết kiệm thời gian và công sức bằng cách tận dụng dịch vụ có sẵn thay vì phải xây dựng và duy trì hệ thống dự báo thời tiết của riêng mình.
+
+	Việc xây dụng  1 ứng dụng web là tập hợp nhiều các API trong ứng dụng như xác minh đăng nhập, lấy dữ liệu hay cập nhật từ cơ sở dữ liệu ...vv

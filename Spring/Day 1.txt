@@ -1,0 +1,17 @@
+1. Tạo sao sử dụng Spring
+	Giúp người lập trình java nhanh hơn, dễ hơn và an toàn hơn cho mọi người. Nó tập trung vào tốc độ, sự đơn giản và hiệu suất giúp nó trở thành một trong những java framework phổ biến nhất thế giới.
+	Framework cung cấp các cấu trúc code có sẵn có chức năng cơ bản như bảo mật, đăng nhập ....
+maven repository thêm depenency pom
+2. Hiểu về Full Spring Ecosystem
+	Hệ sinh thái Spring là framework phát triển ứng dụng java mạnh mẽ từ ứng dụng web. Cung cấp nhiều module và dự án con cho phép xây dụng triển khai quản lý ứng dụng :
+- 	Spring framework: Cung cấp nền tảng phát triển ứng dụng java và hỗ trợ việc quản lý Bean(đối tượng), Dependency Injection(DI), AOP(Aspect Oriented Programming) và nhiều tính năng khác.
+		
+
+3. Tìm hiểu tổng quát giới thiệu Spring Boot
+
+4. Cách một Project thực tế được tạo
+
+5. Hiểu đơn giản Development Environment
+
+6. Maven and Spring
+
