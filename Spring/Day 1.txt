@@ -4,9 +4,33 @@
 maven repository thêm depenency pom
 2. Hiểu về Full Spring Ecosystem
 	Hệ sinh thái Spring là framework phát triển ứng dụng java mạnh mẽ từ ứng dụng web. Cung cấp nhiều module và dự án con cho phép xây dụng triển khai quản lý ứng dụng :
-- 	Spring framework: Cung cấp nền tảng phát triển ứng dụng java và hỗ trợ việc quản lý Bean(đối tượng), Dependency Injection(DI), AOP(Aspect Oriented Programming) và nhiều tính năng khác.
-		
 
+a,	Spring framework: Cung cấp nền tảng phát triển ứng dụng java và hỗ trợ việc quản lý Bean(đối tượng), Dependency Injection(DI), AOP(Aspect Oriented Programming) và nhiều tính năng khác.
+	Bean: một đối tượng mà Spring IoC (Inversion of Control) Container quản lý. Đối tượng này thường đại diện cho một phần của ứng dụng, chẳng hạn như các đối tượng dịch vụ, cơ sở dữ liệu, lớp xử lý logic, v.v. Các bean được tạo và quản lý bởi Spring Container, cho phép bạn tập trung vào việc triển khai logic của ứng dụng mà không phải lo lắng về việc tạo và quản lý các đối tượng.
+	Ví dụ: Các sản phẩm đối tượng trong 1 web bán hàng
+
+	Dependency Injection: một mô hình trong Spring Framework, cho phép bạn cung cấp các phụ thuộc (dependencies) của một bean từ bên ngoài, thay vì để bean tạo ra các phụ thuộc của nó. Mục tiêu chính của DI là làm cho các thành phần của ứng dụng tách biệt và dễ dàng thay đổi. Spring Container sẽ chịu trách nhiệm quản lý và cung cấp các phụ thuộc này cho các bean. Cách thức DI thường được thực hiện trong Spring bao gồm constructor injection, setter injection và field injection.
+	Ví dụ: Các dịch vụ đối với sản phẩm web, như thêm, lấy danh sách sản phẩm theo yêu cầu
+
+	Aspect-Oriented Programming (AOP): AOP là một phương pháp lập trình giúp tách biệt các khía cạnh của ứng dụng như logging, security, transaction management, và nhiều khía cạnh khác ra khỏi logic chính của ứng dụng. Trong AOP, các khía cạnh này được hiện thực bằng các thành phần gọi là "aspect". Spring Framework hỗ trợ AOP thông qua việc tạo các "Advice" (lời khuyên) và gắn chúng vào các điểm cắt (join points) trong ứng dụng. Các điểm cắt có thể là các phương thức, constructor, field access, v.v.
+	Ví dụ: Ghi log lại ghi thêm hay chỉnh sửa sản phầm 
+
+b,	Spring Boot: Là một phần mở rộng của Spring Framework, Spring Boot giúp bạn dễ dàng tạo ra các ứng dụng Java độc lập (standalone) mà không cần phải cấu hình quá nhiều. Nó tự động cấu hình và tối ưu hóa các thành phần cho bạn.
+
+c,	Spring Data: Cung cấp một cách tiếp cận thống nhất để làm việc với các nguồn dữ liệu khác nhau như cơ sở dữ liệu SQL, NoSQL, hệ thống tìm kiếm, và nhiều hệ thống khác. Spring Data giúp giảm bớt công việc liên quan đến xử lý dữ liệu và truy vấn.
+
+d,	Spring Security: Là một module mạnh mẽ cho việc quản lý bảo mật và xác thực trong ứng dụng. Nó cung cấp các cơ chế để bảo vệ dữ liệu và tài nguyên, quản lý danh sách người dùng và phân quyền.
+
+e,	Spring Cloud: Là tập hợp các công cụ và thư viện để phát triển các ứng dụng phân tán, mạng và có khả năng tự điều chỉnh. Nó bao gồm các giải pháp cho việc cấu hình cục bộ, tải cân bằng, kiểm tra sức kháng (resilience) và nhiều khía cạnh khác của ứng dụng phân tán.
+
+f,	Spring Integration: Được sử dụng để tích hợp các ứng dụng khác nhau thông qua các cơ chế messaging và thông báo. Nó giúp xây dựng các ứng dụng có khả năng tương tác với các hệ thống bên ngoài.
+
+g,	Spring Batch: Cho phép bạn xây dựng các quy trình xử lý lớn, như xử lý dữ liệu hàng loạt (batch processing). Điều này hữu ích khi bạn cần thực hiện các tác vụ như import dữ liệu hàng loạt, xử lý hàng trăm nghìn hồ sơ, v.v.
+
+h,	Spring Web Services: Cung cấp các công cụ để phát triển và triển khai dịch vụ web dựa trên các tiêu chuẩn như SOAP (Simple Object Access Protocol) và WSDL (Web Services Description Language).
+
+i,	Spring HATEOAS: Giúp bạn xây dựng các dịch vụ web RESTful theo mô hình HATEOAS (Hypertext as the Engine of Application State), nơi mà các tài nguyên được liên kết với nhau qua các liên kết siêu văn bản.
+	
 3. Tìm hiểu tổng quát giới thiệu Spring Boot
 
 4. Cách một Project thực tế được tạo

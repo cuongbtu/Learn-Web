@@ -1,0 +1,76 @@
+https://laptrinhjavaweb.com/huong-dan-restful-web-service-trong-spring-boot-phan-1-17
+
+@Controller: định nghĩa NewAPI từ 1 java class thành 1 API web service trong spring boot, hiểu đơn giản là biến 1 java class thông thường thành 1 API trong restful web service của spring boot
+
+@RequestMapping: tìm kiếm theo đúng URL của request từ client
+
+RequestMethod.POST: là 1 trong 4 HTTP method, POST được dùng trong các trường hợp thêm dữ liệu vào trong database
+
+Khi viết API, bắt buộc chúng ta phải định nghĩa HTTP method cho API đó
+
+@RequestBody: nhận dữ liệu json được truyền từ client vào server
+
+@ResponseBody: trả kết quả json từ server về client
+
+@RestController = @Controller + @ResponseBody
+
+@PostMapping = @ResquestMapping + RequestMethod.POST
+
+1 số nguyên tắc khi viết API:
+
+- Tên api phải là danh từ
+
+- http method phải đúng với thao tác
+
+Thêm: POST
+
+Sửa: PUT
+
+Xóa: DELETE
+
+Hiển thị dữ liệu: GET
+
+Dùng jdbc câu lệnh sql thuần(phụ thuộc vào database)
+SQL native: câu lệnh đối với database như thế nào thì bê nguyên
+
+Spring data jpa không phụ thuộc vào database(có chuyển đổi loại database khác nhau, không quan tâm loại database gì, truy vấn phụ thuộc vào entity)
+Có cơ chế viết query riêng: HQL hiberbate query language - không tốn quá nhiều tài nguyên tối ưu quá thay đổi hệ thống
+
+Một số hàm build sẵn: findAll(), save(), findOne() ....
+
+entity mapping table:
+@Entity
+@Table
+@Column
+
+JDBC: 
+1. Load driver
+2. Công việc khi làm với spring data jpa
+- Gọi spring data jpa
+- Khai báo mysql connector
+
+entity
+- NewEntity
+- CommentEntity
+- UserEntity
+- RoleEntity
+
+Tạo field ngày tạo, chỉnh sửa. Người tạo người chỉnh sửa
+
+JDBC -> JPA -> Spring data JPA
+
+JPA là ORM 
+JDBC phụ thuộc vào csdl
+
+JPA hỗ trợ 2:
+- HQL thiết kế JPA
+- SQL native
+
+@Id chức năng:
+- not null
+- primary key
+
+@@GeneratedValue: tự tăng giá trị
+
+@MappedSuperClass dùng kế thừa
+

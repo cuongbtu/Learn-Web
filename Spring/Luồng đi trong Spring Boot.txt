@@ -1,0 +1,11 @@
+https://viblo.asia/p/luong-di-trong-spring-boot-ORNZqdELK0n
+
+Cấu trúc dựa trên 2 mô hình
+	- Mô hình MVC
+	- Mô hình 3 lớp
+
+
+Thành phần Spring boot gộp lại 2 mô hình trên:
+	- Controller: Trả về View, hoặc Model dưới dạng API cho View ( thường được viết bằng Angular, React)
+	- Service: Chứa code chính tính toán xử lý. Khi Controller yêu cầu thì Service tương ứng sex tiếp nhận và cho ra dữ liệu trả cho Controller (trả về Model). Controller sẽ gửi về View như trên
+	- Repository: Service còn có thể tương tác với service khác hoặc dùng Repository để gọi DB. Nó tương tác trực tiếp với DB và trả về cho service.

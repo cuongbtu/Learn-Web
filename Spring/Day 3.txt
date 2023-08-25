@@ -1,0 +1,23 @@
+swagger spring boot: kết nối be và fe
+
+Spring thiết kế sẵn 2 tầng service và reponsitory
+
+Sử dụng hàm sẵn jparepository
+
+Có package service, impl các chức năng tương tác entity
+
+Có package repository 
+
+Để gọi NewRepositoty dùng @Autowired - cơ chế nhúng. nhúng Repos vào các service
+
+Ở Repos có thể nhúng vào service khai báo @Repository để Auto
+
+@Service dùng sử dụng service có trong service - để nhúng service vào API
+
+Sử dụng JPA truyền hẳn vào đổi tượng entity
+
+jpa thuần phải tự build theo bản thần
+
+spring data jpa học cách khai báo của framework mà nó hỗ trợ
+
+Dùng find Cirl Space dùng hàm tùy thuộc vào mục đích sử dụng 
