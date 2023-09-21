@@ -1,0 +1,2 @@
+FE: Angular
+BE: Spring Boot

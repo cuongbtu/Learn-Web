@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+:root {
+    --primary-color: #605DC8;
+    --secondary-color: #17ca4c;
+    --accent-color: #ff9204;
+    --shadow-color: #ce9b9b;
+}
+
+.example-button-row {
+    display: table-cell;
+    max-width: 600px;
+}

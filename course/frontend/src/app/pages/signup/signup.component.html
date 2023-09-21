@@ -1,0 +1,35 @@
+<!-- {{user | json}} -->
+<div id="login-box">
+  <div class="left">
+    <h1>Sign up</h1>
+
+    <form (ngSubmit)="formSubmit()" accept-charset="UTF-8">
+
+      <label>Username</label>
+      <input required="" type="text" [(ngModel)]="user.userName" name="userName" matInput />
+
+      <label>First Name</label>
+      <input required="" type="text" [(ngModel)]="user.firstName" name="firstName" matInput />
+
+      <label>Last Name</label>
+      <input required="" type="text" [(ngModel)]="user.lastName" name="lastName" matInput />
+
+      <label>Email</label>
+      <input required="" type="text" [(ngModel)]="user.email" name="email" matInput />
+
+      <label>Password</label>
+      <input required="" type="password" [(ngModel)]="user.password" name="password" matInput />
+
+      <button type="submit" class="btn btn-success">Register</button>
+    </form>
+  </div>
+
+  <div class="right">
+    <span class="loginwith">Sign in with<br />social network</span>
+
+    <button class="social-signin facebook">Log in with facebook</button>
+    <button class="social-signin twitter">Log in with Twitter</button>
+    <button class="social-signin google">Log in with Google+</button>
+  </div>
+  <div class="or">OR</div>
+</div>

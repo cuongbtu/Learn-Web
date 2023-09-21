@@ -1,0 +1,30 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  .red {
+    color: #4e0101; 
+    background-color: #58e4f7;
+}
+.blue {
+    color: #2e3de9; 
+}
+.green {
+    color: #2bf16a; 
+}
+.yellow {
+    color: #cff528; 
+}
+.bluelight {
+    color: #58e4f7; 
+}
+.example-button-row {
+  display: table-cell;
+  max-width: 600px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.button-margin{
+  margin-left: 10px;
+  margin-right: 10px;
+}

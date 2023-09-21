@@ -1,0 +1,26 @@
+https://angular.io/tutorial/first-app
+
+npm install -g @angular/cli
+
+Run: ng serve
+
+Tạo mới component: ng generate component home --standalone --inline-template --skip-tests
+
+Tạo interface: ng generate interface housinglocation
+
+Tự thêm dữ liệu test
+
+<app-housing-location
+  *ngFor="let housingLocation of housingLocationList"
+  [housingLocation]="housingLocation">
+</app-housing-location> hiển thị list danh sách
+
+Tạo service: ng generate service housing --skip-tests
+Lấy danh sách vị trí trùng id
+
+
+ <a [routerLink]="['/']">
+
+Tạo file db test
+
+json-server --watch db.json
